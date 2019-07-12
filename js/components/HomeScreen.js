@@ -38,12 +38,12 @@ export class HomeScreen extends React.Component {
         <Text>Home Screen</Text>
         <Text>Count: {this.state.count}</Text>
         <Button
-          title="Go to Details"
+          title="Go to Recipes"
           onPress={() => {
-            /* 1. Navigate to the Details route with params */
-            this.props.navigation.navigate('Details', {
+            /* 1. Navigate to the Recipes route with params */
+            this.props.navigation.navigate('Recipes', {
               itemId: 86,
-              otherParam: 'First Details',
+              otherParam: 'First Recipes',
             });
           }}
         />

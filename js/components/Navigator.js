@@ -1,6 +1,6 @@
 import { createStackNavigator } from 'react-navigation';
 import { HomeScreen } from './HomeScreen';
-import { DetailsScreen } from './DetailsScreen';
+import { RecipesScreen } from './RecipesScreen';
 import { ModalScreen } from './ModalScreen';
 
 const MainStack = createStackNavigator(
@@ -8,8 +8,8 @@ const MainStack = createStackNavigator(
     Home: {
       screen: HomeScreen,
     },
-    Details: {
-      screen: DetailsScreen,
+    Recipes: {
+      screen: RecipesScreen,
     },
   },
   {
